@@ -1,7 +1,11 @@
-<?php $title = 'Sobre' ?>
+<?php
+include 'functions/template.php';
 
-<?php include('includes/header.php') ?>
+$title = 'Sobre'
+?>
+
+<?php getHeader() ?>
 
         <h1>Sobre</h1>
 
-<?php include('includes/footer.php') ?>
+<?php getFooter() ?>

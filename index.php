@@ -1,7 +1,13 @@
-<?php $title = 'Home Page' ?>
+<?php
+include 'vendor/autoload.php';
 
-<?php include('includes/header.php') ?>
+$title = 'Home Page';
+$val = 10;
+?>
+
+<?php getHeader('home') ?>
 
         <h1>Home Page</h1>
+        <?= soma($val, 20) ?>
 
-<?php include('includes/footer.php') ?>
+<?php getFooter() ?>
